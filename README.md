@@ -33,4 +33,5 @@ Active development / experimental concept
 This project is provided for educational and portfolio purposes.
 
 ## Live preview
-Link to the website: 
+Link to the website: https://denysovski.github.io/VoidStudio/
+<img alt="screencapture-denysovski-github-io-VoidStudio-2026-02-03-18_14_52" src="https://github.com/user-attachments/assets/b06bde3e-b0a0-49b8-bb33-839adf7ad134" />
