@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VOID - Exist in the Void</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Custom Cursor -->
+    <div class="custom-cursor"></div>
+    
+    <!-- Hover Tooltip -->
+    <div class="hover-tooltip">
+        <h4></h4>
+        <p></p>
+    </div>
+
+    <!-- Navigation -->
+    <nav id="nav" class="nav-glass">
+        <div class="nav-container">
+            <div class="nav-content">
+                <!-- Logo -->
+                <a href="/" class="logo">VOID<span class="logo-dot">.</span></a>
+
+                <!-- Desktop Navigation -->
+                <div class="nav-links">
+                    <a href="#archive" class="nav-link">ARCHIVE</a>
+                    <a href="#collection" class="nav-link">COLLECTION</a>
+                    <a href="#products" class="nav-link">PRODUCTS</a>
+                    <a href="#void" class="nav-link">VOID</a>
+                    <a href="#manifesto" class="nav-link">MANIFESTO</a>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <button id="menu-btn" class="menu-btn" aria-label="Toggle menu">
+                    <span class="menu-line"></span>
+                    <span class="menu-line"></span>
+                    <span class="menu-line"></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu Overlay -->
+    <div id="mobile-menu" class="mobile-menu">
+        <div class="mobile-menu-content">
+            <nav class="mobile-nav">
+                <a href="#archive" class="mobile-nav-link">ARCHIVE</a>
+                <a href="#collection" class="mobile-nav-link">COLLECTION</a>
+                <a href="#products" class="mobile-nav-link">PRODUCTS</a>
+                <a href="#void" class="mobile-nav-link">VOID</a>
+                <a href="#manifesto" class="mobile-nav-link">MANIFESTO</a>
+            </nav>
+            <div class="mobile-menu-footer">
+                <div class="mobile-social">
+                    <a href="#">INSTAGRAM</a>
+                    <a href="#">TIKTOK</a>
+                </div>
+                <p>© 2024 VOID STUDIO</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <span class="decorative-text" style="top: 6rem; left: 1rem;">POST-HUMAN AESTHETICS / INDUSTRIAL DECAY / CONSTRUCTED IMPERMANENCE</span>
+        <span class="decorative-text decorative-text-hide-mobile" style="top: 6rem; right: 1rem;">EST. 2019 BERLIN / ANTI-SEASONAL / TIMELESS</span>
+        <!-- 4 Row Info Text -->
+        <div class="info-grid fade-in-up">
+            <div class="info-item">
+                <div class="info-header">
+                    <h4 class="info-title">ORIGIN</h4>
+                    <div class="hover-card">
+                        <svg class="info-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"/>
+                        </svg>
+                        <p>Founded in 2019 from the underground Berlin scene. Every piece carries the DNA of industrial decay and post-human aesthetics.</p>
+                    </div>
+                </div>
+                <p class="info-text">Born from the ashes of conventional fashion. A rejection of color, form, and expectation.</p>
+            </div>
+            <div class="info-item">
+                <div class="info-header">
+                    <h4 class="info-title">PHILOSOPHY</h4>
+                    <div class="hover-card">
+                        <svg class="info-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 2a10 10 0 1 0 0 20 10 10 0 1 0 0-20zM9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/>
+                            <path d="M12 17h.01"/>
+                        </svg>
+                        <p>Anti-fashion as resistance. We reject seasonal trends, embracing instead the eternal cycle of creation and destruction.</p>
+                    </div>
+                </div>
+                <p class="info-text">We design for the collapse. Garments that exist between moments, between identities.</p>
+            </div>
+            <div class="info-item">
+                <div class="info-header">
+                    <h4 class="info-title">MATERIAL</h4>
+                    <div class="hover-card">
+                        <svg class="info-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="m12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83Z"/>
+                            <path d="m22 17.65-9.17 4.16a2 2 0 0 1-1.66 0L2 17.65"/>
+                            <path d="m22 12.65-9.17 4.16a2 2 0 0 1-1.66 0L2 12.65"/>
+                        </svg>
+                        <p>Salvaged military surplus, recycled synthetics, and organic cotton processed through experimental treatments.</p>
+                    </div>
+                </div>
+                <p class="info-text">Industrial fabrics transformed. Each thread carries the weight of forgotten futures.</p>
+            </div>
+            <div class="info-item">
+                <div class="info-header">
+                    <h4 class="info-title">PURPOSE</h4>
+                    <div class="hover-card">
+                        <svg class="info-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"/>
+                        </svg>
+                        <p>Protection through anonymity. Our garments shield the wearer from the chaos of modern existence.</p>
+                    </div>
+                </div>
+                <p class="info-text">To clothe the void within. Armor for navigating a world that no longer makes sense.</p>
+            </div>
+        </div>
+
+        <!-- Cube Image -->
+        <div class="cube-container scale-in">
+            <div class="cube-wrapper">
+                <img src="https://images.unsplash.com/photo-1574015974293-817f0ebebb74?q=80&w=673&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="VOID Collection" class="cube-image">
+            </div>
+        </div>
+
+        <!-- Big Text -->
+        <div class="hero-text">
+            <h1 class="text-massive">EXIST</h1>
+            <h2 class="text-massive text-stroke" data-text="IN THE" data-tooltip="We exist in the liminal spaces between creation and destruction, between form and formlessness. The void is not empty—it is full of potential.">IN THE</h2>
+            <h1 class="text-massive">VOID</h1>
+        </div>
+    </section>
+
+    <!-- Row 1 - Archive -->
+    <section id="archive" class="section">
+        <div class="container">
+            <span class="decorative-text" style="top: 2rem; right: 2rem;">DISCONTINUED PIECES / EXPERIMENTAL PROTOTYPES</span>
+            <div class="row-grid">
+                <div class="fade-in-left">
+                    <span class="section-label">001 — ARCHIVE</span>
+                    <h2 class="text-giant">REMNANTS</h2>
+                    <h3 class="text-giant text-stroke" data-text="OF TOMORROW" data-tooltip="A carefully curated collection of discontinued pieces and experimental prototypes. Each item represents a path not taken, a future that never manifested. Limited quantities, never to be reproduced.">OF TOMORROW</h3>
+                </div>
+                <div class="text-right fade-in-right">
+                    <p class="section-description">Fragments collected from futures that never arrived. Each piece a testament to abandoned timelines. Our archive preserves the essence of experimental design—garments that challenged conventions and pushed boundaries beyond comfort.</p>
+                    <a href="#" class="link-brutal">EXPLORE ARCHIVE</a>
+                </div>
+            </div>
+        </div>
+        <div class="section-number">01</div>
+    </section>
+
+    <!-- Row 2 - Collection -->
+    <section id="collection" class="section section-alt section-overlap">
+        <div class="container">
+            <span class="decorative-text" style="top: 1rem; left: 2rem;">SEASON-LESS DESIGN / UTILITARIAN FORMS</span>
+            <div class="row-grid-reverse">
+                <div class="fade-in-left">
+                    <p class="section-description">Garments designed for the collapse. Utilitarian forms stripped to their essence. Every piece serves a purpose beyond mere aesthetics—protection, functionality, and the meditation on impermanence guide our design philosophy.</p>
+                    <div class="link-group">
+                        <a href="#" class="link-brutal">OUTER</a>
+                        <a href="#" class="link-brutal">INNER</a>
+                        <a href="#" class="link-brutal">LAYERS</a>
+                    </div>
+                </div>
+                <div class="fade-in-right">
+                    <span class="section-label">002 — COLLECTION</span>
+                    <h2 class="text-giant">CURRENT</h2>
+                    <h3 class="text-giant text-stroke" data-text="DECAY" data-tooltip="Our current collection embraces the beauty of deterioration. Season-less pieces designed for the present collapse, built to endure the entropy of daily existence while celebrating the aesthetic of controlled decay.">DECAY</h3>
+                </div>
+            </div>
+        </div>
+        <div class="section-number section-number-right">02</div>
+    </section>
+
+    <!-- Row 3 - Void -->
+    <section id="void" class="section section-overlap">
+        <div class="container">
+            <span class="decorative-text decorative-text-void" style="bottom: 2rem; left: 50%; transform: translateX(-50%);">ABSENCE / PRESENCE / EMPTINESS / POTENTIAL</span>
+            <div class="text-center fade-in-up">
+                <span class="section-label">003 — VOID</span>
+                <h2 class="text-massive">NOTHING</h2>
+                <h3 class="text-massive text-stroke" data-text="IS EVERYTHING" data-tooltip="In the philosophy of VOID, absence defines presence. The negative space, the unused fabric, the silence between threads—these are not lacks but rather the foundations of our aesthetic. Emptiness is not a void to be filled, but a canvas of infinite potential.">IS EVERYTHING</h3>
+                <p class="section-description center-text">The absence defines the form. We create from what is not there. In minimalism, we find complexity. In reduction, we discover expansion. The void speaks louder than any ornament ever could.</p>
+                <a href="#" class="link-brutal">ENTER THE VOID</a>
+            </div>
+        </div>
+        <div class="void-symbol">∅</div>
+    </section>
+
+    <!-- Row 4 - Manifesto -->
+    <section id="manifesto" class="section section-alt section-overlap">
+        <div class="container">
+            <div class="manifesto-grid">
+                <div class="fade-in-left">
+                    <span class="section-label">004 — MANIFESTO</span>
+                    <h2 class="text-giant">WE REJECT</h2>
+                    <h3 class="text-giant text-stroke" data-text="PERMANENCE" data-tooltip="Nothing lasts forever. We embrace this truth rather than fight it. Our garments are designed to age, to wear, to transform with time. Permanence is an illusion—we create for the beautiful decay that defines all existence.">PERMANENCE</h3>
+                </div>
+                <div class="fade-in-right">
+                    <p class="section-description">Clothing as artifact. Identity as construction. Reality as option. We believe fashion should be a tool for transformation, not conformity. Each garment is a statement against the tyranny of trends, a rebellion against the disposable culture of mass production.</p>
+                    <div class="link-group-vertical">
+                        <a href="#" class="link-brutal">READ FULL TEXT</a>
+                        <a href="#" class="link-brutal">SUBSCRIBE</a>
+                        <a href="#" class="link-brutal">CONTACT</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section-number">04</div>
+    </section>
+
+    <!-- Clothing Products Section -->
+    <section id="products" class="section">
+        <div class="container">
+            <span class="decorative-text decorative-text-products" style="top: 3rem; right: 1rem;">HANDCRAFTED / BERLIN ATELIER / LIMITED PRODUCTION</span>
+            <span class="decorative-text" style="bottom: 3rem; left: 1rem;">INDUSTRIAL WOOL / RECYCLED SYNTHETICS / ORGANIC COTTON</span>
+            <div class="fade-in-left">
+                <span class="section-label">005 — ARTIFACTS</span>
+                <h2 class="text-giant">WEAR THE</h2>
+                <h3 class="text-giant text-stroke" data-text="ABSENCE" data-tooltip="Our garments are defined by what they lack—excess ornamentation, unnecessary detail, fleeting trends. We design in negative space, creating pieces that speak through restraint and purposeful emptiness.">ABSENCE</h3>
+            </div>
+
+            <div class="products-grid">
+                <!-- Large Left Product -->
+                <div class="product-large fade-in-up">
+                    <div class="product-image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1610765431323-d88c88a2b2c8?q=80&w=764&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="COLLAPSE COAT" class="product-image">
+                        <div class="product-gradient"></div>
+                        <div class="product-number">01</div>
+                        <div class="product-content">
+                            <span class="product-category">OUTERWEAR</span>
+                            <h4 class="product-title">COLLAPSE COAT</h4>
+                            <p class="product-description">Engineered for the end. Oversized silhouette in industrial wool blend.</p>
+                            <a href="#" class="link-brutal">EXAMINE</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Column Products -->
+                <div class="products-right">
+                    <div class="product-medium fade-in-right">
+                        <div class="product-image-wrapper">
+                            <img src="https://images.unsplash.com/photo-1597633125097-5a9961e1f03d?q=80&w=765&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="PHANTOM HOOD" class="product-image">
+                            <div class="product-gradient"></div>
+                            <div class="product-content">
+                                <span class="product-category">LAYERING</span>
+                                <h4 class="product-title">PHANTOM HOOD</h4>
+                                <a href="#" class="link-brutal">EXAMINE</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-medium fade-in-right">
+                        <div class="product-image-wrapper">
+                            <img src="https://images.unsplash.com/photo-1742312185113-a25fc5f8a1d6?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="CARGO DECAY" class="product-image">
+                            <div class="product-gradient"></div>
+                            <div class="product-content">
+                                <span class="product-category">BOTTOMS</span>
+                                <h4 class="product-title">CARGO DECAY</h4>
+                                <a href="#" class="link-brutal">EXAMINE</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Full Width Feature -->
+            <div class="product-feature fade-in-up">
+                <div class="product-image-wrapper">
+                    <img src="https://images.unsplash.com/photo-1543728069-a3f97c5a2f32?q=80&w=1169&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="TACTICAL SHELL" class="product-image">
+                    <div class="product-gradient-horizontal"></div>
+                    <div class="feature-text">VOID</div>
+                    <div class="product-content product-content-left">
+                        <span class="product-category">PROTECTION</span>
+                        <h4 class="product-title-large">TACTICAL SHELL</h4>
+                        <p class="product-description">Armor for the nameless. Modular construction for the collapse.</p>
+                        <a href="#" class="link-brutal">ACQUIRE</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section-number section-number-right">05</div>
+    </section>
+
+    <!-- Editorial Section -->
+    <section class="editorial-section">
+        <div class="editorial-bg">
+            <img src="https://images.unsplash.com/photo-1468818519844-64bc429824de?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Editorial" class="editorial-image">
+            <div class="editorial-overlay"></div>
+        </div>
+
+        <div class="container editorial-content">
+            <div class="editorial-top fade-in-up">
+                <span class="section-label">006 — EDITORIAL</span>
+                <h2 class="text-massive">THE</h2>
+                <h3 class="text-massive text-stroke" data-text="SILENCE" data-tooltip="In silence, we find truth. Our editorial work captures the quiet moments between chaos, the stillness that defines movement. Each image is a meditation on absence and presence.">SILENCE</h3>
+            </div>
+
+            <div class="editorial-bottom fade-in-right">
+                <p class="editorial-quote">"In the space between words, we find the truest form of expression. Our garments speak through their absence. They whisper where others shout, suggest where others demand."</p>
+                <a href="#" class="link-brutal">VIEW EDITORIAL</a>
+            </div>
+        </div>
+
+        <div class="editorial-number">06</div>
+    </section>
+
+    <!-- Atelier Section -->
+    <section class="section section-alt">
+        <div class="container">
+            <span class="decorative-text" style="top: 2rem; right: 2rem;">TORSTRASSE 138 / BERLIN-MITTE / 10119 GERMANY</span>
+            <span class="decorative-text" style="bottom: 2rem; left: 2rem;">BY APPOINTMENT ONLY / TUESDAY - SATURDAY</span>
+            <div class="atelier-header">
+                <div class="fade-in-left">
+                    <span class="section-label">007 — ATELIER</span>
+                    <h2 class="text-giant">WHERE</h2>
+                    <h3 class="text-giant text-stroke" data-text="VOID" data-tooltip="Our Berlin atelier is where the philosophy becomes tangible. In this space, traditional craftsmanship meets industrial decay, and each garment is born from the marriage of precision and chaos.">VOID</h3>
+                    <h2 class="text-giant">MANIFESTS</h2>
+                </div>
+                <div class="fade-in-right">
+                    <p class="section-description">Our atelier exists in the margins of Berlin—a space where traditional craftsmanship meets industrial aesthetics. Each piece is constructed by hand, a meditation on impermanence.</p>
+                </div>
+            </div>
+
+            <div class="atelier-image-container">
+                <div class="atelier-image-wrapper fade-in-up">
+                    <img src="https://images.unsplash.com/photo-1579317755467-78123151b108?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Atelier" class="atelier-image">
+                    <div class="atelier-image-overlay"></div>
+                    <div class="atelier-image-text">VOID</div>
+                </div>
+
+                <div class="atelier-info fade-in-up">
+                    <div class="atelier-info-item">
+                        <svg class="atelier-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                            <circle cx="12" cy="10" r="3"/>
+                        </svg>
+                        <div>
+                            <h5>LOCATION</h5>
+                            <p>Torstraße 138, Berlin-Mitte<br>10119 Germany</p>
+                        </div>
+                    </div>
+                    <div class="atelier-info-item">
+                        <svg class="atelier-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"/>
+                            <polyline points="12 6 12 12 16 14"/>
+                        </svg>
+                        <div>
+                            <h5>HOURS</h5>
+                            <p>By appointment only<br>Tuesday — Saturday</p>
+                        </div>
+                    </div>
+                    <div class="atelier-info-item">
+                        <svg class="atelier-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect width="20" height="16" x="2" y="4" rx="2"/>
+                            <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>
+                        </svg>
+                        <div>
+                            <h5>INQUIRIES</h5>
+                            <p>atelier@void.studio</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="atelier-number">07</div>
+    </section>
+
+    <!-- Stockists Section -->
+    <section class="section">
+        <div class="container">
+            <span class="decorative-text" style="top: 1rem; left: 1rem;">CAREFULLY CURATED LOCATIONS / GLOBAL PRESENCE</span>
+            <span class="decorative-text decorative-text-stockists" style="bottom: 1rem; right: 1rem;">TOKYO / LONDON / PARIS / NEW YORK / BERLIN / SEOUL</span>
+            <div class="stockists-grid">
+                <div class="stockists-left fade-in-left">
+                    <span class="section-label">008 — STOCKISTS</span>
+                    <h2 class="text-giant">GLOBAL</h2>
+                    <h3 class="text-giant text-stroke" data-text="PRESENCE" data-tooltip="Our garments inhabit carefully curated spaces across the globe. Each stockist understands the weight of absence and the power of negative space. They are partners in our philosophy, not mere retailers.">PRESENCE</h3>
+                    <p class="section-description">Our garments inhabit spaces that understand the weight of absence. Each location curated for those who seek beyond the surface.</p>
+                </div>
+
+                <div class="stockists-list">
+                    <div class="stockist-item fade-in-up">
+                        <div class="stockist-info">
+                            <span class="stockist-num">01</span>
+                            <div>
+                                <h4 class="stockist-city">TOKYO</h4>
+                                <p class="stockist-name">Dover Street Market Ginza</p>
+                                <p class="stockist-specialty">Flagship exclusive collections, avant-garde outerwear, and limited capsule releases. Specializing in reconstructed pieces with Japanese craftsmanship influence. Home to our most experimental silhouettes.</p>
+                            </div>
+                        </div>
+                        <div class="stockist-meta">
+                            <span class="stockist-country">JP</span>
+                            <a href="#" class="stockist-link">VISIT</a>
+                        </div>
+                    </div>
+                    <div class="stockist-item fade-in-up">
+                        <div class="stockist-info">
+                            <span class="stockist-num">02</span>
+                            <div>
+                                <h4 class="stockist-city">LONDON</h4>
+                                <p class="stockist-name">Machine-A</p>
+                                <p class="stockist-specialty">Dark streetwear essentials, utility-focused layering systems, and tactical accessories. UK's premier destination for dystopian fashion. Emphasis on weathered denim and industrial outerwear.</p>
+                            </div>
+                        </div>
+                        <div class="stockist-meta">
+                            <span class="stockist-country">UK</span>
+                            <a href="#" class="stockist-link">VISIT</a>
+                        </div>
+                    </div>
+                    <div class="stockist-item fade-in-up">
+                        <div class="stockist-info">
+                            <span class="stockist-num">03</span>
+                            <div>
+                                <h4 class="stockist-city">PARIS</h4>
+                                <p class="stockist-name">L'Éclaireur</p>
+                                <p class="stockist-specialty">High-concept tailoring, deconstructed formal wear, and architectural garments. Curated selection of our runway pieces and atelier exclusives. Focus on minimalist monochrome collections.</p>
+                            </div>
+                        </div>
+                        <div class="stockist-meta">
+                            <span class="stockist-country">FR</span>
+                            <a href="#" class="stockist-link">VISIT</a>
+                        </div>
+                    </div>
+                    <div class="stockist-item fade-in-up">
+                        <div class="stockist-info">
+                            <span class="stockist-num">04</span>
+                            <div>
+                                <h4 class="stockist-city">NEW YORK</h4>
+                                <p class="stockist-name">Opening Ceremony</p>
+                                <p class="stockist-specialty">Urban survival wear, modular cargo systems, and tech-integrated pieces. American launch hub for seasonal drops. Specializing in heavyweight knits and military-inspired silhouettes.</p>
+                            </div>
+                        </div>
+                        <div class="stockist-meta">
+                            <span class="stockist-country">US</span>
+                            <a href="#" class="stockist-link">VISIT</a>
+                        </div>
+                    </div>
+                    <div class="stockist-item fade-in-up">
+                        <div class="stockist-info">
+                            <span class="stockist-num">05</span>
+                            <div>
+                                <h4 class="stockist-city">BERLIN</h4>
+                                <p class="stockist-name">Voo Store</p>
+                                <p class="stockist-specialty">Atelier headquarters pieces, raw sample releases, and collaborative works. Direct access to our workshop prototypes. Featuring hand-distressed exclusives and made-to-order services.</p>
+                            </div>
+                        </div>
+                        <div class="stockist-meta">
+                            <span class="stockist-country">DE</span>
+                            <a href="#" class="stockist-link">VISIT</a>
+                        </div>
+                    </div>
+                    <div class="stockist-item fade-in-up">
+                        <div class="stockist-info">
+                            <span class="stockist-num">06</span>
+                            <div>
+                                <h4 class="stockist-city">SEOUL</h4>
+                                <p class="stockist-name">Boon The Shop</p>
+                                <p class="stockist-specialty">Contemporary basics, refined streetwear fundamentals, and elevated essentials. Focus on versatile layering pieces and clean-cut minimalism. Gateway to our core collection and signature styles.</p>
+                            </div>
+                        </div>
+                        <div class="stockist-meta">
+                            <span class="stockist-country">KR</span>
+                            <a href="#" class="stockist-link">VISIT</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="stockists-bg-text">WORLDWIDE</div>
+        <div class="section-number section-number-right">08</div>
+    </section>
+
+    <!-- Gallery Grid Section -->
+    <section class="section gallery-section">
+        <div class="container">
+            <span class="decorative-text" style="top: 2rem; left: 2rem;">MONOCHROME AESTHETIC / POST-INDUSTRIAL DECAY</span>
+            <span class="decorative-text decorative-text-hide-mobile" style="top: 2rem; right: 2rem;">AW19 / SS20 / TIMELESS COLLECTION</span>
+            <div class="gallery-header fade-in-up">
+                <span class="section-label">009 — GALLERY</span>
+                <h2 class="text-giant">VISUAL</h2>
+                <h3 class="text-giant text-stroke" data-text="ARCHIVE" data-tooltip="Our visual archive documents the evolution of the void aesthetic. Each image captures a moment in time, frozen in monochrome, stripped of excess, reduced to its essence.">ARCHIVE</h3>
+            </div>
+
+            <div class="gallery-grid">
+                <div class="gallery-item gallery-tall fade-in-up">
+                    <img src="https://images.unsplash.com/photo-1741376478037-80ae743ace47?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Gallery 1" class="gallery-image">
+                    <div class="gallery-overlay">
+                        <span class="gallery-label">AW19 COLLECTION</span>
+                    </div>
+                </div>
+                <div class="gallery-item fade-in-up">
+                    <img src="https://images.unsplash.com/photo-1765872551254-5e7c7a9bcd1f?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Gallery 2" class="gallery-image">
+                    <div class="gallery-overlay">
+                        <span class="gallery-label">LAYERING PIECES</span>
+                    </div>
+                </div>
+                <div class="gallery-item fade-in-up">
+                    <img src="https://images.unsplash.com/photo-1563248095-08d8b249ea69?q=80&w=1169&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Gallery 3" class="gallery-image">
+                    <div class="gallery-overlay">
+                        <span class="gallery-label">TACTICAL CARGO</span>
+                    </div>
+                </div>
+                <div class="gallery-item gallery-wide fade-in-up">
+                    <img src="https://images.unsplash.com/photo-1767334010488-83cdb8539273?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Gallery 4" class="gallery-image">
+                    <div class="gallery-overlay">
+                        <span class="gallery-label">MODULAR SYSTEMS</span>
+                    </div>
+                </div>
+                <div class="gallery-item fade-in-up">
+                    <img src="https://images.unsplash.com/photo-1573896324968-3aa9b8b1a1ff?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Gallery 5" class="gallery-image">
+                    <div class="gallery-overlay">
+                        <span class="gallery-label">VOID ESSENCE</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials / Philosophy Section -->
+    <section class="section philosophy-section">
+        <div class="container">
+            <span class="decorative-text" style="top: 1rem; left: 50%; transform: translateX(-50%);">MANIFESTO / PRINCIPLES / PHILOSOPHY OF THE VOID</span>
+            <div class="philosophy-grid">
+                <div class="philosophy-item fade-in-up">
+                    <div class="philosophy-number">∅</div>
+                    <h3 class="philosophy-title">EMBRACE THE VOID</h3>
+                    <p class="philosophy-text">"In emptiness, we find freedom. In absence, we discover presence. VOID isn't just clothing—it's a philosophy of existence in the post-everything era."</p>
+                    <span class="philosophy-author">— Founder's Manifesto, 2019</span>
+                </div>
+                <div class="philosophy-item fade-in-up">
+                    <div class="philosophy-number">◊</div>
+                    <h3 class="philosophy-title">ANTI-SEASONAL</h3>
+                    <p class="philosophy-text">"We reject the tyranny of seasons. Our garments exist outside of time, designed for the eternal now and the inevitable collapse."</p>
+                    <span class="philosophy-author">— Design Principles</span>
+                </div>
+                <div class="philosophy-item fade-in-up">
+                    <div class="philosophy-number">▲</div>
+                    <h3 class="philosophy-title">CONSTRUCTED DECAY</h3>
+                    <p class="philosophy-text">"Every piece is born weathered, distressed by design. We celebrate imperfection as the truest form of beauty in a world obsessed with polish."</p>
+                    <span class="philosophy-author">— Atelier Notes</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="section stats-section">
+        <div class="container">
+            <span class="decorative-text" style="top: 1rem; left: 1rem;">ESTABLISHED 2019 / BERLIN / UNDERGROUND FASHION COLLECTIVE</span>
+            <span class="decorative-text" style="bottom: 1rem; right: 1rem;">GLOBAL NETWORK / 12 STOCKISTS / 6 CONTINENTS</span>
+            <div class="stats-grid">
+                <div class="stat-item fade-in-up">
+                    <div class="stat-number">2019</div>
+                    <div class="stat-label">FOUNDED</div>
+                    <p class="stat-desc">Born in Berlin's underground</p>
+                </div>
+                <div class="stat-item fade-in-up">
+                    <div class="stat-number">100%</div>
+                    <div class="stat-label">HANDMADE</div>
+                    <p class="stat-desc">Every piece crafted by hand</p>
+                </div>
+                <div class="stat-item fade-in-up">
+                    <div class="stat-number">∞</div>
+                    <div class="stat-label">TIMELESS</div>
+                    <p class="stat-desc">Beyond seasonal constraints</p>
+                </div>
+                <div class="stat-item fade-in-up">
+                    <div class="stat-number">12</div>
+                    <div class="stat-label">STOCKISTS</div>
+                    <p class="stat-desc">Global presence in key cities</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <a href="/" class="footer-logo">VOID<span class="logo-dot">.</span></a>
+                    <p class="footer-description">
+                        Born from the rejection of conventional fashion, VOID exists at the intersection of decay and design. 
+                        We create garments for those who dwell in the spaces between—timeless pieces that transcend trends and 
+                        embody the philosophy of constructed impermanence. Each item is a meditation on absence, crafted in our 
+                        Berlin atelier where traditional techniques meet industrial aesthetics.
+                    </p>
+                    <div class="footer-social">
+                        <a href="#" aria-label="Instagram">INSTAGRAM</a>
+                        <a href="#" aria-label="TikTok">TIKTOK</a>
+                        <a href="#" aria-label="Twitter">TWITTER</a>
+                        <a href="#" aria-label="YouTube">YOUTUBE</a>
+                    </div>
+                </div>
+
+                <div class="footer-links">
+                    <h4>EXPLORE</h4>
+                    <nav>
+                        <a href="#archive">Archive</a>
+                        <a href="#collection">Current Collection</a>
+                        <a href="#products">Products</a>
+                        <a href="#void">The Void</a>
+                        <a href="#manifesto">Manifesto</a>
+                        <a href="#">Lookbook</a>
+                        <a href="#">About Us</a>
+                    </nav>
+                </div>
+
+                <div class="footer-links">
+                    <h4>SUPPORT</h4>
+                    <nav>
+                        <a href="#">Contact</a>
+                        <a href="#">Shipping & Delivery</a>
+                        <a href="#">Returns & Exchanges</a>
+                        <a href="#">Size Guide</a>
+                        <a href="#">Care Instructions</a>
+                        <a href="#">FAQ</a>
+                        <a href="#">Track Order</a>
+                    </nav>
+                </div>
+
+                <div class="footer-newsletter">
+                    <h4>TRANSMISSIONS</h4>
+                    <p>Receive signals from the void. Exclusive access to new drops, lookbooks, and dispatches from the collapse. Join the community of those who exist between.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="YOUR EMAIL ADDRESS" required>
+                        <button type="submit" class="link-brutal">SUBSCRIBE TO VOID</button>
+                    </form>
+                    <p style="font-size: 0.625rem; color: rgba(153, 153, 153, 0.5); margin-top: 1rem; line-height: 1.4;">
+                        By subscribing, you agree to receive marketing communications. Unsubscribe at any time.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="footer-bottom-content">
+                    <span>© 2026 VOID STUDIO. ALL RIGHTS DISSOLVED INTO THE ABYSS. DESIGNED IN BERLIN.</span>
+                    <div class="footer-bottom-links">
+                        <a href="#">PRIVACY POLICY</a>
+                        <a href="#">TERMS & CONDITIONS</a>
+                        <a href="#">COOKIES</a>
+                        <a href="#">ACCESSIBILITY</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-end-quote">
+            <p>"In the end, we are all just fragments of light and shadow, existing in the spaces between certainty and doubt. Wear the void. Embrace the absence. Find beauty in decay."</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
